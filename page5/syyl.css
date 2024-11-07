@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #100f0f;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(40, 44, 50);
+    margin-top: 10px;
+    border-radius:10px;
+}
+img{
+        width: 100%; /* أو عرض محدد */
+        height: 30vh; /* يحافظ على نسبة العرض إلى الارتفاع */
+        object-fit: cover; /* تغطي الصورة المنطقة المحددة */
+        filter: brightness(1.1) contrast(1.2); /* تعديل السطوع والتباين */
+}
+h1{
+    color: #A16EFF;
+    font-size: 30px;
+    text-align: left;
+    padding: 30px;
+    position: relative;
+}
+h2{
+    font-size: 24px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+    color: #fff;
+}
+p{
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.7;
+}
+.niga1 , .niga2 , .niga3{
+    width: 40%;
+    height: 40%;
+}
+.niga3{
+    position: absolute;
+    top: 72%;
+    left: 60%;
+}
+.niga1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    top: 57%;
+}
+.niga2{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+.box1 , .box2 , .box3{
+    width: 40px;
+    height:40px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 50px;
+    position: relative;
+    left: 45%;
+    animation: animate 2s infinite linear;
+    animation-delay: 0.5s;
+    transform-origin: center;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    opacity: 0.8;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    &:hover {
+        background-color: #A16EFF;
+    }
+    &:nth-child(1){
+        animation-delay: 0s;
+    }
+    &:nth-child(2){
+        animation-delay: 0.5s;
+    }
+    &:nth-child(3){
+        animation-delay: 1s;
+    }
+    &:nth-child(4){
+        animation-delay: 1.5s;
+    }
+    &:nth-child(5){
+        animation-delay: 2s;
+    }
+    &:nth-child(6){
+        animation-delay: 2.5s;
+    }
+    &:nth-child(7){
+        animation-delay: 3s;
+    }
+}
+@keyframes animate{
+    0% {
+        transform: scale(1);
+        background-color: aqua;
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: #A16EFF;
+    }
+    100% {
+        transform: scale(1);
+        background-color: aqua;
+    }
+}
+.box1 {
+    position: relative;
+    bottom: 20%;
+}
+.box3{
+    position: absolute;
+    top: 80%;
+}
+.hr1{
+    width: 31%;
+    height: 0.2vh;
+    background-color: white;
+    position: absolute;
+    left: 18%;
+    top: 92%;
+    font-size: 20px;
+}
+.hr2{
+    width: 24%;
+    height: 0.2vh;
+    background-color: white;
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    font-size: 20px;
+}
+.hr3{
+    width: 8%;
+    height: 0.2vh;
+    background-color: white;
+    position: absolute;
+    left: 52.3%;
+    top: 74%;
+    font-size: 20px;
+}
+.hr4{
+    width: 15%;
+    height: 0.2vh;
+    background-color: white;
+    position: absolute;
+    left: 43%;
+    top: 75%;
+    transform: rotate(90deg);
+}

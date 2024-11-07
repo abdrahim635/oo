@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+background-color: #100f0f;
+margin: 0%;
+font-family: 'DINNextLTArabic',sans-serif;
+padding: 0%;
+}
+.container{
+ height: 100%;
+ width: 82%;
+ background-color: #282C32;
+position:fixed;
+transform: translate(-150px);
+left: 270px;
+}
+h1{
+color: #A16EFF;
+font-size: 40px;
+margin-left: 70px;
+margin-top: 100px;
+font-size: 40px;
+position: relative;
+right: 25px;
+}
+@font-face {
+font-family:'DINNextLTArabic',sans-serif;
+  src: url(fonts/DINNextLTArabic-Bold-4.ttf);
+}
+.card{
+  width: 270px;
+  height: 220px;
+  font-family: 'Raleway', sans-serif;
+  margin-left:70px;
+  border-radius: 10px;
+  color: white;
+  transform: translate(-25px);
+box-shadow: inset -3px -3px 3px #6b6a6a73,inset 2px 2px 2px 2px #0a050586;
+}
+h3{
+left:20px;
+position: relative;
+top: 20px;
+}
+p{
+left: 20px;
+font-family: 'Raleway', sans-serif;
+color: #e6e6e6; /* Light text color */
+line-height: 1.6; /* Improves readability */
+position: relative;
+top: 15px;
+}
+@font-face {
+  font-family: 'CustomArial';
+  src: url('path/to/arial.woff2') format('woff2'),
+       url('path/to/arial.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.card2{
+  position: relative;
+  left: 280px;
+bottom: 238px;
+transform: translate(15px);
+  width: 270px;
+  height: 220px;
+  font-family: 'Raleway', sans-serif;
+  margin-left:70px;
+  border-radius: 10px;
+  color: white;
+box-shadow: inset -3px -3px 3px #6b6a6a73,inset 2px 2px 2px 2px #0a050586;
+transform: translate(-12px);
+}
+
+
+.card3{
+  position: relative;
+  left: 290px;
+bottom: 238px;
+transform: translate(15px);
+  width: 563px;
+  height: 150px;
+  font-family: 'Raleway', sans-serif;
+  margin-left:70px;
+  border-radius: 10px;
+  color: white;
+  translate:-290px;
+  transform: translate(-25px);
+box-shadow: inset -3px -3px 3px #6b6a6a73,inset 2px 2px 2px 2px #0a050586;
+
+}
+img{
+width: 67%;
+position: relative;
+bottom: 360%;
+left: 150%;
+right: 4%;
+height: 400%;
+transform: translate(-250px);
+}

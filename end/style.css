@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #100f0f;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenar{
+    width: 90%;
+    height: 95vh;
+    background-color: rgb(40, 44, 50);
+    margin-top: 10px;
+    border-radius:10px;
+    position: relative;
+    right:5%;
+}
+h1{
+    color: #A16EFF;
+    font-size: 30px;
+    text-align: left;
+    padding: 30px;
+    position: relative;
+    top: 120px;
+    font-family: monospace;
+    overflow: hidden;
+/* Keeps on a single line */
+    white-space: nowrap;
+    border-right: 1px solid;
+/* steps number of characters */
+    animation: typing 3s steps(22) forwards,
+    blink 1s step-end infinite;
+}
+p{
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top:  100px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    overflow: hidden;
+/* Keeps on a single line */
+    white-space: nowrap;
+    border-right: 1px solid;
+/* steps number of characters */
+    animation: typing 3s steps(22) forwards,
+    blink 1s step-end infinite;
+    
+}
+img{
+    position: relative;
+    bottom: 52%;
+    left: 73%;
+    right: 4%;
+    width: 55%;
+    height: 100%;
+    object-fit: contain;
+}
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
